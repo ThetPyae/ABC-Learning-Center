@@ -1,0 +1,1571 @@
+/*==========================================
+Global
+============================================*/
+html, body {
+	margin: 0;
+}
+
+body {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*===========================================
+Common CSS
+=============================================*/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'lato', sans-serif;
+	font-weight: 700;
+}
+
+p, a {
+	margin: 0;
+	font-family: 'roboto', sans-serif;
+	font-weight: 400;
+}
+
+.std-section {
+	padding-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.std-title {
+    position: relative;
+    margin: auto;
+}
+
+.std-title .title{
+    color: #f3f3f3;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+}
+
+.std-title .title .first-title{
+    color: #f3f3f3;
+}
+
+.std-title .title .sec-title{
+    color: #333;
+}
+
+.std-title .title .one-title{
+    color: #333;
+}
+
+.std-title .title .two-title{
+    color: #37a187;
+}
+
+.std-title .title .first-line{
+    height: 2px;
+    background-color: #f3f3f3;
+    width: 15%;
+    margin-top: 5px;
+    margin-right: 38%;
+    border-radius: 10px;
+}
+
+.std-title .title .sec-line{
+    height: 2px;
+    background-color: #333;
+    width: 15%;
+    margin-top: -11px;
+    margin-left: 38%;
+    border-radius: 10px;
+}
+
+.std-title .title .one-line{
+    height: 2px;
+    background-color: #333;
+    width: 15%;
+    margin-top: 5px;
+    margin-right: 38%;
+    border-radius: 10px;
+}
+
+.std-title .title .two-line{
+    height: 2px;
+    background-color: #37a187;
+    width: 15%;
+    margin-top: -11px;
+    margin-left: 38%;
+    border-radius: 10px;
+}
+
+
+/*===========================================
+Header
+=============================================*/
+#header .header-section{
+    background-color: #37a187;
+}
+
+#header .header-section .header-items{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.header-section .header-items .logo{
+    padding-left: 0px;
+    text-align: center;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.header-items .logo a{
+    text-decoration: none;
+}
+
+.logo .logo-name h2{
+    font-family: 'Sonsie One', cursive;
+    color: #f3f3f3;
+    font-size: 25px;
+}
+
+.logo .logo-text p{
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #f3f3f3;
+}
+
+.header-items .header-buttons{
+    position: absolute;
+    top: 11px;
+    right: 20px;
+}
+
+.header-items .button-items .nav{
+    margin: 10px auto;
+}
+
+.button-items .nav li{
+    margin: 5px;
+}
+
+.button-items .nav li a{
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.button-items .nav li a:hover{
+    color: #37a187;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.button-items .nav .select{
+    color: #37a187;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.header-items .portrait-navbar .navbar-button{
+    text-align: center;
+}
+
+.header-items .portrait-navbar{
+    margin-top: 8px;
+}
+
+.portrait-navbar .navbar-button a{
+    margin: 5px;
+    padding: 5px;
+    color: #333;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.portrait-navbar .navbar-button a:hover{
+    color: #37a187;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+
+
+/*=====================================
+banner
+=====================================*/
+#banner .banner-section{
+    position: relative;
+}
+
+#banner .banner-section .banner1{
+    width: 100%;
+    position: absolute;
+    filter: blur(3px);
+}
+
+#banner .banner-section .banner2{
+    position: absolute;
+    width: 50%;
+    left: 20%;
+    margin-top: 2%;
+}
+
+#banner .banner-section .heading1{
+    position: absolute;
+    font-size: 13px;
+    width: 10rem;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    margin-top: 11%;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.banner-section .heading1 .text1{
+    color: #f3f3f3;
+    text-shadow: 3px 3px 5px #333;
+}
+
+.banner-section .heading1 .text2{
+    color: #37a187;
+    text-shadow: 3px 3px 5px #f3f3f3;
+}
+
+.banner-section .sub-heading1{
+    position: absolute;
+    font-size: 8px;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #f3f3f3;
+    letter-spacing: 0.5px;
+    margin-top: 24%;
+    margin-left: 15px;
+    width: 7.5rem;
+    text-transform: capitalize;
+}
+
+#banner .banner-section .heading2{
+    position: absolute;
+    font-size: 13px;
+    width: 9rem;
+    letter-spacing: 2px;
+    right: 15px;
+    margin-top: 11%;
+    text-align: right;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.banner-section .heading2 .text1{
+    color: #f3f3f3;
+    text-shadow: 3px 3px 5px #333;
+}
+
+.banner-section .heading2 .text2{
+    color: #37a187;
+    text-shadow: 3px 3px 5px #f3f3f3;
+}
+
+.banner-section .sub-heading2{
+    position: absolute;
+    font-size: 8px;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #f3f3f3;
+    letter-spacing: 0.5px;
+    margin-top: 24%;
+    right: 15px;
+    width: 7.5rem;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+#banner .design{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    margin-top: 16%;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+#banner .design .line-one,
+#banner .design .line-two{
+    width: 100%;
+    height: 76%;
+    background: #37a187;
+    position: absolute;
+}
+
+#banner .design .line-one{
+    top: 50%;
+    transform: rotate(8deg);
+    left: -100px;
+}
+
+#banner .design .line-two{
+    top: 50%;
+    transform: rotate(172deg);
+    right: -100px;
+}
+
+
+/*========================================
+how we teach
+===========================================*/
+#weteach{
+    position: absolute;
+    width: 100%;
+    margin-top: 45%;
+    padding-top: 0px;
+    background-color: #37a187;
+}
+
+#weteach .weteach-section .weteach-img{
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.weteach-section .weteach-img img{
+    margin-bottom: 1rem;
+}
+
+.weteach-section .weteach-img .weteach-text{
+    font-size: 12px;
+}
+
+
+
+
+
+
+/*==================================
+whyou-section
+======================================*/
+#weteach .whyou-section .whyou-box{
+    width: 80%;
+    margin: 1.5rem auto;
+}
+
+.whyou-box .about-box{
+    border: none;
+}
+
+.whyou-box .about-box .about-icon{
+    font-size: 35px;
+    text-align: center;
+    color: #f3f3f3;ိ
+}
+
+.whyou-box .about-box .about-title{
+    text-align: center;
+    padding: 15px;
+    color: #333;
+    font-size: 20px;
+}
+
+.whyou-box .about-box p{
+    font-size: 15px;
+    text-align: center;
+    color: #222;
+    padding: 11px;
+}
+
+
+
+
+/*==================================
+footer
+======================================*/
+#footer{
+    width: 100%;
+    padding: 1rem;
+    background-color: #333;
+}
+
+#footer .footer-section{
+    text-align: center;
+}
+
+.footer-section .links{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.footer-section .links .sub-link{
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0 8px;
+    display: inline;
+    font-family: 'lato', sans-serif;
+    font-size: 12px;
+}
+
+.footer-section .links a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer-section .links a:hover{
+    color: #37a187;
+}
+
+
+
+
+
+/*===========================================
+About us
+=============================================*/
+#about-us{
+    margin: auto;
+}
+
+#about-us .about-us-section{
+    position: relative;
+}
+
+#about-us .about-us-section img{
+    width: 100%;
+    transform: rotateY(180deg);
+    filter: blur(2px);
+}
+
+#about-us .about-us-section .about-text-section{
+    position: absolute;
+    top: 22%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.about-us-section .about-text-section p{
+    width: 70%;
+    margin: auto;
+    font-size: 9px;
+}
+
+
+
+
+/*===========================================
+Our team
+=============================================*/
+#ourteam .ourteam-section{
+    width: 100%;
+}
+
+.ourteam-section .ourteam-box{
+    width: 80%;
+    margin: 1.5rem auto;
+}
+
+.ourteam-box .team-box{
+    border: none;
+}
+
+.ourteam-box .team-box img{
+    width: 100%;
+    border-radius: 170px;
+    border: 5px solid #37a187;
+    padding: 5px;
+}
+
+.ourteam-box .team-box:hover img{
+    padding: 0px;
+    transition: 0.5s ease;
+}
+
+.ourteam-box .team-box .teacher-img{
+    font-size: 35px;
+    text-align: center;
+    color: #f3f3f3;ိ
+    background-color: #f3f3f3;
+}
+
+.ourteam-box .team-box .teacher-name{
+    text-align: center;
+    padding: 15px;
+    color: #333;
+    font-size: 16px;
+}
+
+
+
+
+/*============================
+contact us
+===============================*/
+.contact-us-section .contact-address .address{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.contact-us-section .contact-address{
+    border: 3px solid #37a187;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.contact-address .address .location,
+.contact-address .address .email,
+.contact-address .address .phno{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.contact-address .address h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #37a187;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.contact-address .address p{
+    font-size: 14px;
+}
+
+.contact-address .map{
+    padding: 10px;
+}
+
+.contact-address .map img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.contact-message-section{
+    width: 100%;
+}
+
+.contact-message-section .contact-message-box{
+    margin: auto;
+}
+
+.contact-message-section .contact-message-box input,
+.contact-message-section .contact-message-box textarea{
+    width: 100%;
+    border: 1.5px solid #37a187;
+}
+
+.contact-message-section .message-button{
+    width: 130px;
+    margin: 10px auto;
+    background-color: #37a187;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.contact-message-section .message-button p{
+    text-align: center;
+    color: #f3f3f3;
+}
+
+
+
+
+
+/*============================
+privacy
+===============================*/
+#privacy .privacy-section .privacy-text-section{
+    margin-bottom: 2rem;
+}
+
+.privacy-section .privacy-text-section p,
+.privacy-section .privacy-text-section li{
+    font-size: 13px;
+    color: #333;
+}
+
+.privacy-section .privacy-text-section h3{
+    font-size: 24px;
+    color: #333;
+}
+
+.privacy-section .privacy-text-section h4{
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+
+
+
+/*============================
+sitemap
+===============================*/
+.sitemap-section .sitemap-links{
+    padding: 2.6rem 0;
+}
+
+.sitemap-section .sitemap-links li{
+    margin: 1rem 0;
+}
+
+.sitemap-links li a{
+    color: #333;
+}
+
+.sitemap-links li a:hover{
+    color: #37a187;
+    font-weight: 800;
+}
+
+
+
+
+/*===========================================
+Register
+=============================================*/
+#register{
+    margin: 4rem auto;
+}
+
+#register .register-section .register-form{
+    margin: auto;
+}
+
+.register-section .register-form td{
+    padding: 1rem 0;
+}
+
+.register-section .register-form td input{
+    width: 100%;
+    border: 1.5px solid #37a187;
+}
+
+
+.register-section .register-form td #gd{
+    width: 15%;
+}
+
+.register-section .register-form #retext{
+    color: #37a187;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+#buttons{
+    text-align: center;
+    padding: 10px auto;
+}
+
+#buttons input{
+    margin: 10px;
+    background-color: #37a187;
+    border: none;
+    cursor: pointer;   
+    color: #f3f3f3;
+    padding: 5px;
+}
+
+
+
+
+
+/*===========================================
+Coureses
+=============================================*/
+#title{
+    margin-top: 3rem;
+}
+
+#courses{
+    margin: 3rem auto;
+}
+
+#courses .courses-section .courses-division{
+    width: 100%;
+    margin: auto;
+}
+
+.courses-section .courses-division .course-item{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px #000;
+}
+
+.courses-division .course-item .course-img{
+    padding: 10px;
+}
+
+.course-item .course-img img{
+    width: 100%;
+}
+
+.courses-division .course-item .card-title{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #f3f3f3;
+    background-color: #37a187;
+    font-size: 16px;
+}
+
+.course-item .course-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.course-item .course-list li {
+    width: 80%;
+    margin: auto;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+}
+
+.course-item .course-list li i {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    color: #333;
+}
+
+.course-item .course-list li span {
+    color: #333;
+}
+
+.course-item a {
+    display: block;
+    width: 65%;
+    height: 45px;
+    border: 2px solid #37a187;
+    color: #37a187;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 8px auto;
+    transition: 0.5s ease;
+}
+
+.course-item a:hover {
+    background: #37a187;
+    color: #f3f3f3;
+}
+
+
+
+/*===========================
+menu
+=============================*/
+.nice-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nice-nav a{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.nice-nav {
+    width: 165px;
+    height: 100%;
+    transition:all 0.4s ease-in-out 0s;
+    margin-left: 2rem;
+    position: absolute;
+}
+
+.nice-nav.open {
+    margin-left: -250px;
+    display: block;
+}
+
+.nice-nav li.child-menu span.toggle-right {
+    text-align: right;
+    float: right;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    top: 0;
+    background: #379190;
+    bottom: 0;
+}
+
+.nice-nav ul li a {
+    padding: 12px;
+    background: #37a187;
+    border-bottom: 1px solid #f3f3f3;
+    display: block;
+    color: #f3f3f3;
+    position: relative;
+}
+
+.nice-nav ul li.child-menu ul {
+    background: #aaa;
+    display: none;
+}
+
+.nice-nav ul li.child-menu ul li a {
+    background: #333;
+    padding: 10px 20px;
+}
+
+
+
+
+
+/*===========================
+details
+=============================*/
+#course-details .details-section,
+#course-schedule .schedule-section{
+    margin: 3rem;
+}
+
+#course-details .details-section img,
+#course-schedule .schedule-section img{
+    width: 100%;
+    box-shadow: 0px 0px 10px #333;
+}
+
+.details-section .class-overview h4,
+.schedule-section .class-overview h4{
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.details-section .class-overview p,
+.schedule-section .class-overview p{
+    font-size: 13px;
+    color: #333;
+}
+
+.details-section .class-overview h2,
+.schedule-section .class-overview h2{
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+
+
+
+/*===========================
+tab
+=============================*/
+#tabs{
+  width:100%;
+  background-color:#fff;
+  margin:10px auto;
+}
+
+#tabs ul{
+    width: 100%;
+    text-align: center;
+    background-color: #f3f3f3;
+    
+}
+
+#tabs ul li{
+    list-style-type:none;
+    float: left;
+    width: 33.333%;
+    line-height: 80px;
+    font-size: 24px;
+    margin: 0 auto;
+    border: none;
+
+}
+
+#tabs ul li a{
+    color: #333;
+    text-decoration: none;
+    width: 100%;
+    height: 80px;
+    float: left;
+    font-size: 16px;
+}
+
+#tabs ul li a:hover{
+  color:#333;
+  text-decoration:none;
+}
+
+#tabs ul li.selected{
+    border-bottom: 6px solid #37a187;
+}
+
+#tabs ul li.selected a{
+    color: #37a187;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #f3f3f3;
+    font-weight: bold;
+}
+
+.tab-content{
+    width: 100%;
+    padding: 40px;
+    width: 100%;
+    background-color:#fff;
+}
+
+.schedule-heading{
+    width: 100%;
+    background-color: #37a187;
+    padding: 10px;
+}
+
+.schedule-heading .row{
+    padding: 10px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.schedule-heading .row .sec1{
+    text-align: left;
+    font-weight: 900;
+}
+
+.schedule-heading .row .sec2{
+    text-align: right;
+    font-weight: 900;
+}
+
+.schedule-heading .row a{
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 10px;
+    border: 2px solid #f3f3f3;
+    font-weight: 900;
+}
+
+.schedule-heading .row a:hover{
+    color: #37a187;
+    background-color: #f3f3f3;
+    transition: 0.5s ease;
+}
+
+.timetable{
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.timetable td{
+    border: 3px solid #f3f3f3;
+    padding: 8px;
+    text-align: center;
+}
+
+.timetable .tth{
+    font-weight: 700;
+    color: #f3f3f3;
+    background-color: #333;
+    text-align: center;
+}
+
+.timetable .ttd{
+    font-weight: 700;
+    color: #333;
+    background-color: #37a187;
+    text-align: left;
+}
+
+
+
+/*=======================
+Thank You
+========================*/
+#thankyou{
+    margin: 14rem auto;
+    border: 10px solid #37a187;
+    border-style: double;
+}
+
+.thankyoutext{
+    margin: auto;
+    padding: 1rem;
+}
+
+.thankyoutext p{
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small devices (between 360px and 575px)*/
+@media(min-width: 360px){
+    #banner .banner-section .heading1{
+        font-size: 16px;
+        width: 10rem;
+        margin-top: 14%;
+    }
+
+    .banner-section .sub-heading1{
+        width: 10rem;
+        margin-top: 23%;
+    }
+
+
+    #banner .banner-section .heading2{
+        font-size: 16px;
+        width: 9rem;
+        margin-top: 14%;
+    }
+
+    .banner-section .sub-heading2{
+        width: 9rem;
+        margin-top: 23%;
+    }
+
+    #banner .design{
+        margin-top: 20%;
+    }
+
+    .about-us-section .about-text-section p{
+        font-size: 11.5px;
+    }
+
+    #about-us .about-us-section .about-text-section{
+        top: 22%;
+    }
+
+    .courses-division .course-item .card-title{
+        font-size: 22px;
+    }
+
+    .course-item .course-list li {
+        width: 73%;
+        font-size: 14px;
+    }
+}
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media(min-width: 576px){
+    .std-title .title{
+        font-size: 25px;
+    }
+
+    .header-section .header-items .logo{
+        margin: auto;
+        padding-left: 20px;
+        text-align: left;
+        border: none;
+    }
+
+    .logo .logo-name h2{
+        font-size: 32px;
+        padding-left: 15px;
+    }
+
+    #banner .banner-section .banner1{
+        filter: blur(4px);
+    }
+
+    #banner .design{
+        height: 19%;
+        margin-top: 29%;
+    }
+
+    #banner .banner-section .heading1{
+        margin-top: 14%;
+        font-size: 25px;
+        width: 12rem;
+    }
+
+    .banner-section .sub-heading1{
+        font-size: 11px;
+        color: #333;
+        width: 12rem;
+        margin-top: 23%;
+    }
+
+     #banner .banner-section .heading2{
+        margin-top: 14%;
+        font-size: 25px;
+        width: 12rem;
+    }
+
+    .banner-section .sub-heading2{
+        font-size: 11px;
+        color: #333;
+        width: 12rem;
+        margin-top: 23%;
+    }
+
+    .weteach-section .weteach-img .weteach-text{
+        font-size: 16px;
+    }
+
+    #about-us .about-us-section .about-text-section{
+        top: 30%;
+    }
+
+    .about-us-section .about-text-section p{
+        font-size: 16px;
+    }
+
+    .contact-address .address .location,
+    .contact-address .address .email,
+    .contact-address .address .phno{
+        text-align: center;
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .contact-address .address h4{
+        font-size: 20px;
+    }
+
+    .contact-address .address p{
+        font-size: 16px;
+    }
+
+    .contact-message-section .contact-message-box{
+        width: 60%;
+    }
+
+    .contact-message-section .contact-message-box td{
+        padding: 10px;
+        color: #37a187;
+        font-weight: 700;
+    }
+
+    .sitemap-section .sitemap-links{
+        padding: 1rem 0;
+    }
+
+    .sitemap-section .sitemap-links li{
+        font-size: 20px;
+    }
+
+    .course-item .course-list li {
+        width: 50%;
+        font-size: 16px;
+    }
+
+    .course-item a {
+        width: 35%;
+        margin: 16px auto;
+    }
+
+    #course-details .details-section,
+    #course-schedule .schedule-section{
+        margin: 3rem 3rem 3rem 14rem;
+    }
+
+    #course-details .details-section img,
+    #course-schedule .schedule-section img{
+        height: 13rem;
+    }
+
+    .details-section .class-overview h4,
+    .schedule-section .class-overview h4{
+        font-size: 20px;
+    }
+
+    .details-section .class-overview p,
+    .schedule-section .class-overview p{
+        font-size: 16px;
+    }
+
+    .details-section .class-overview h2,
+    .schedule-section .class-overview h2{
+        font-size: 22px;
+    }
+
+    #thankyou{
+        width: 65%;
+    }
+
+    .thankyoutext p{
+        font-size: 20px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media(min-width: 768px){
+    .std-title .title{
+        font-size: 30px;
+    }
+
+    .std-title .title .first-line{
+        width: 12%;
+        margin-right: 40%;
+    }
+
+    .std-title .title .sec-line{
+        width: 12%;
+        margin-left: 40%;
+    }
+
+    .std-title .title .one-line{
+        width: 12%;
+        margin-right: 40%;
+    }
+
+    .std-title .title .two-line{
+        width: 12%;
+        margin-left: 40%;
+    }
+
+    .header-section .header-items .logo{
+        padding-left: 40px;
+    }
+
+    .header-items .header-buttons{
+        right: 40px;
+    }
+
+    #banner .banner-section .heading1{
+        font-size: 35px;
+        width: 17rem;
+        letter-spacing: 3px;
+        margin-left: 30px;
+        margin-top: 14%;
+    }
+
+    .banner-section .sub-heading1{
+        font-size: 13px;
+        width: 17rem;
+        margin-left: 30px;
+        margin-top: 25%;
+        letter-spacing: 1.5px;
+    }
+
+    #banner .banner-section .heading2{
+        font-size: 35px;
+        width: 17rem;
+        letter-spacing: 3px;
+        right: 30px;
+        margin-top: 14%;
+    }
+
+    .banner-section .sub-heading2{
+        font-size: 13px;
+        width: 17rem;
+        right: 30px;
+        margin-top: 25%;
+        letter-spacing: 1.5px;
+    }
+
+    #banner .design{
+        height: 24%;
+        margin-top: 30%;
+    }
+
+    .whyou-box .about-box{
+        padding: 0 40px 0 0;
+    }
+
+    .footer-section .links{
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .footer-section .links .sub-link{
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+    .footer-section .links .sub-link1{
+        padding: 0 20px;
+        font-size: 20px;
+    }
+
+    #about-us .about-us-section .about-text-section{
+        top: 30%;
+    }
+
+    .about-us-section .about-text-section p{
+        width: 60%;
+        font-size: 20px;
+    }
+
+    .ourteam-box .team-box{
+        padding: 0 40px 0 0;
+    }
+
+    .footer-section .links{
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .contact-message-section .contact-message-box{
+        width: 50%;
+    }
+
+    .privacy-section .privacy-text-section p,
+    .privacy-section .privacy-text-section li{
+        font-size: 16px;
+    }
+
+    .privacy-section .privacy-text-section h3{
+        font-size: 30px;
+    }
+
+    .privacy-section .privacy-text-section h4{
+        font-size: 20px;
+    }
+
+    .sitemap-section .sitemap-links li{
+        font-size: 22px;
+    }
+
+    .course-item .course-list li {
+        width: 75%;
+    }
+
+    .course-item a {
+        width: 50%;
+    }
+
+    .nice-nav {
+        width: 230px;
+    }
+
+    .nice-nav a{
+        font-size: 16px;
+    }
+
+    #course-details .details-section,
+    #course-schedule .schedule-section{
+        margin: 3rem 3rem 3rem 18rem;
+    }
+
+    #course-details .details-section img,
+    #course-schedule .schedule-section img{
+        height: 18rem;
+    }
+
+    .details-section .class-overview h4,
+    .schedule-section .class-overview h4{
+        font-size: 24px;
+    }
+
+    .details-section .class-overview h2,
+    .schedule-section .class-overview h2{
+        font-size: 26px;
+    }
+
+    #thankyou{
+        width: 55%;
+    }
+}
+
+
+/*Large devices (Laptop/desktops, 992px and up)*/
+@media(min-width: 992px){
+    .std-title .title{
+        font-size: 35px;
+    }
+
+    .std-title .title .first-line{
+        width: 10%;
+        margin-right: 42%;
+    }
+
+    .std-title .title .sec-line{
+        width: 10%;
+        margin-left: 42%;
+    }
+
+    .std-title .title .one-line{
+        width: 10%;
+        margin-right: 42%;
+    }
+
+    .std-title .title .two-line{
+        width: 10%;
+        margin-left: 42%;
+    }
+
+    #banner .banner-section .heading1{
+        font-size: 45px;
+        width: 21rem;
+        margin-left: 40px;
+        margin-top: 13%;
+    }
+
+    .banner-section .sub-heading1{
+        font-size: 16px;
+        width: 21rem;
+        margin-left: 40px;
+        margin-top: 24%;
+    }
+
+    #banner .banner-section .heading2{
+        font-size: 45px;
+        width: 21rem;
+        right: 40px;
+        margin-top: 13%;
+    }
+
+    .banner-section .sub-heading2{
+        font-size: 16px;
+        width: 21rem;
+        right: 40px;
+        margin-top: 24%;
+    }
+
+    #banner .design{
+        height: 33%;
+        margin-top: 29%;
+    }
+
+    .weteach-section .weteach-img .weteach-text{
+        font-size: 20px;
+    }
+
+    .about-us-section .about-text-section p{
+        font-size: 22px;
+    }
+
+    .contact-message-section .contact-message-box{
+        width: 40%;
+    }
+
+    .course-item .course-list li {
+        width: 57%;
+    }
+
+    .course-item a {
+        width: 40%;
+    }
+
+    .nice-nav {
+        width: 230px;
+    }
+
+    .nice-nav a{
+        font-size: 16px;
+    }
+
+    .nice-nav {
+        width: 250px;
+        margin-left: 3rem;
+    }
+
+    #course-details .details-section,
+    #course-schedule .schedule-section{
+        margin: 3rem 3rem 3rem 20rem;
+    }
+
+    #course-details .details-section img,
+    #course-schedule .schedule-section img{
+        height: 23rem;
+    }
+
+    .details-section .class-overview h4,
+    .schedule-section .class-overview h4{
+        font-size: 28px;
+    }
+
+    .details-section .class-overview p,
+    .schedule-section .class-overview p{
+        font-size: 20px;
+    }
+
+    .details-section .class-overview h2,
+    .schedule-section .class-overview h2{
+        font-size: 32px;
+    }
+
+    #thankyou{
+        width: 51%;
+    }
+}
+
+/*Extra Large devices (desktops, 1200px and up)*/
+@media(min-width: 1200px){
+    .std-title .title .first-line{
+        width: 10%;
+        margin-right: 42%;
+    }
+
+    .std-title .title .sec-line{
+        width: 10%;
+        margin-left: 42%;
+    }
+
+    .std-title .title .one-line{
+        width: 10%;
+        margin-right: 42%;
+    }
+
+    .std-title .title .two-line{
+        width: 10%;
+        margin-left: 42%;
+    }
+
+    #banner .design{
+        height: 37%;
+        margin-top: 30%;
+    }
+
+    .banner-section .sub-heading1{
+        margin-top: 22%;
+    }
+
+    .banner-section .sub-heading2{
+        margin-top: 22%;
+    }
+
+    .weteach-section .weteach-img .weteach-text{
+        padding: 0 3rem;
+    }
+
+    #about-us .about-us-section .about-text-section{
+        top: 35%;
+    }
+
+    .contact-message-section .contact-message-box{
+        width: 35%;
+    }
+
+    .course-item .course-list li {
+        width: 47%;
+    }
+
+    .course-item a {
+        width: 33%;
+    }
+
+    #course-details .details-section img,
+    #course-schedule .schedule-section img{
+        height: 32.5rem;
+    }
+
+    #thankyou{
+        width: 42%;
+    }
+}
