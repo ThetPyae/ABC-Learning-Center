@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABC Learning Center</title>
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="library/fontawesome/css/all.css"/>
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="header-section">
+			<div class="header-items">
+				<div class="logo">
+					<a href="index.html">
+						<div class="logo-name">
+							<h2>ABC</h2>
+						</div>
+						<div class="logo-text">
+							<p>Learning Center</p>
+						</div>
+					</a>	
+				</div>
+
+				<div class="header-buttons d-none d-sm-block">
+					<div class="button-items">
+						<ul class="nav">
+							<li><a href="index.html" class="select">Home</a></li>
+							<li><a href="courses.html">Courses</a></li>
+							<li><a href="register.html">Register</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="portrait-navbar d-block d-sm-none">
+					<div class="navbar-button">
+						<a href="index.html" class="portait-select">Home</a>
+						<a href="courses.html">Courses</a>
+						<a href="register.html">Register</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- header end -->
+
+	<!-- register -->
+	<div id="register" class="std-section">
+		<div class="register-section">
+			<div class="std-title">
+				<h3 class="title">
+					<span class="one-title"><b>Regi</b></span><span class="two-title"><b>ster</b></span>
+					<hr class="one-line">
+					<hr class="two-line">
+				</h3>
+			</div>
+			<table class="register-form">
+	            <tr>
+	                <td id="retext">First Name</td>
+	                <td></td>
+		            <td>
+		            	<input id="fn" type="text" name="fname" onkeypress="return chkAlpha(event,'error')" onblur="chkBlnk('fn', 'fnerror')" maxlength="50" required>
+		            </td>
+		            <td></td>
+		            <td id="fnerror" style="color:red;"></td>
+	            </tr>
+	            <tr>
+	                <td id="retext">Last Name</td>
+	                <td></td>
+	                <td>
+	                    <input id="ln" type="text" name="lname" onkeypress="return chkAlpha(event,'error')" onblur="chkBlnk('ln', 'lnerror')" maxlength="50" required>
+	                </td>
+	                <td></td>
+                    <td id="lnerror" style="color:red;"></td>
+	            </tr>
+	            <tr>
+	                <td id="retext">Password</td>
+	                <td></td>
+                    <td>
+	                    <input id="pass" type="password" name="password" onblur="chkBlnk('pass','passerror')" maxlength="45" required>
+	                </td>
+	                <td></td>
+	                <td id="passerror" style="color:red;"></td>
+	            </tr>
+                <tr>
+	                <td id="retext">Mobile Number</td>
+	                <td></td>
+	                <td>
+	                    <input id="mobileno" type="text" name="phno" onkeypress="return mobilevalidation(event)" onblur="chkphone()"  maxlength="50" required>
+	                </td>
+                    <td></td>
+	                <td id="phnoerror" style="color:red;"></td>
+	            </tr>
+                <tr>
+	                <td id="retext">Email Address</td>
+	                <td></td>
+	                <td>
+	                    <input id="emailadd" type="type" name="email" onkeypress="chkeid()" onblur="chkBlnk('emailadd','emailerror')" maxlength="30" required>
+	                </td>
+                    <td></td>
+	                <td id="emailerror" style="color:red;"></td>
+	            </tr>
+	            <tr>
+                    <td id="retext">Gender</td>
+                    <td></td>
+                    <td id="retext">
+                        <input type="radio" name="gender" id="gd" value="Male">Male
+                        <input type="radio" name="gender" id="gd" value="Female">Female
+                    </td>
+                    <td></td>
+                    </td>
+                    <td id="gendererror" style="color:red;"></td>
+                </tr>
+            </table>
+            <div id="buttons">			
+                <input id="submit" type="button" name="submit" value="Submit" onclick="window.location.href = 'thankyou.html';">
+                <input type="hidden" name="submitted" value="1">
+                <input id="reset" type="reset" name="reset" value="Reset" onclick="myFunction()">
+            </div>
+		</div>
+	</div>
+	<!-- register end -->
+
+	
+	
+
+
+	<!-- footer -->		
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links">
+				<p class="sub-link"><a href="privacy.html">Privacy Policy</a></p>
+				<p class="sub-link"><a href="contact-us.html">Contact Us</a></p>
+				<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				<p class="sub-link"><a href="sitemap.html">Sitemap</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+
+	
+	
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+	    function chkBlnk(eid, errid) {
+	        var x = document.getElementById(eid).value;
+	        if (x == "") {
+	            document.getElementById(errid).innerHTML = "Please fill this field";
+	        } else {
+	            document.getElementById(errid).innerHTML = "";
+	        }
+	    }
+
+	    function chkeid() {
+	        var emailadd = document.getElementById("emailadd").value;
+	        var atpos = emailadd.indexOf("@");
+	        var dotpos = emailadd.lastIndexOf(".");
+	        if (atpos < 4 || dotpos < atpos + 3) {
+	            document.getElementById("emailerror").innerHTML = "Invalid email";
+	        } 
+			else {
+	            document.getElementById("emailerror").innerHTML = "";
+	        }
+	    }
+
+		function mobilevalidation(evt)
+		    {
+		        var charCode = (evt.which) ? evt.which : event.keyCode
+		        if (charCode > 31 && (charCode < 48 || charCode > 57))
+		            return false;
+
+		        return true;
+		    }
+
+		    function chkphone() {
+		        var x, text;
+
+		        // Get the value of the input field with id="numb"
+		        x = document.getElementById("mobileno").value;
+
+		        // If x is Not a Number or less than one or greater than 11
+		        if (isNaN(x) || x < 1 || x > 11) {
+		            text = "Please fill this field";
+		        } else {
+		            text = "";
+		        }
+		        document.getElementById("phnoerror").innerHTML = text; 
+		    }
+
+		    function ValidateForm(form) {
+		        if ((form.gender[0].checked == false) && (form.gender[1].checked == false)) {
+		            document.getElementById("gendererror").innerHTML = "Please choose gender";
+		        }
+		        else {
+		            document.getElementById("gendererror").innerHTML= "";
+		        }  
+		    }
+
+		    function myFunction(){
+		    	location.reload();
+		    }
+
+
+
+
+
+
+
+		    
+
+
+	</script>
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

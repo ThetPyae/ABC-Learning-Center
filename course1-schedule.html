@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABC Learning Center</title>
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="library/fontawesome/css/all.css"/>
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	<!-- JQuery -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+  	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="header-section">
+			<div class="header-items">
+				<div class="logo">
+					<a href="index.html">
+						<div class="logo-name">
+							<h2>ABC</h2>
+						</div>
+						<div class="logo-text">
+							<p>Learning Center</p>
+						</div>
+					</a>	
+				</div>
+
+				<div class="header-buttons d-none d-sm-block">
+					<div class="button-items">
+						<ul class="nav">
+							<li><a href="index.html" class="select">Home</a></li>
+							<li><a href="courses.html">Courses</a></li>
+							<li><a href="register.html">Register</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="portrait-navbar d-block d-sm-none">
+					<div class="navbar-button">
+						<a href="index.html" class="portait-select">Home</a>
+						<a href="courses.html">Courses</a>
+						<a href="register.html">Register</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- header end -->
+
+	<!-- course schedule -->
+	<div id="course-schedule">
+		<!-- menu -->
+		<div class="menu-section">
+			<div class="nice-nav d-none d-sm-block">
+			    <div class="clear"></div>
+			    <ul>
+			    	<li class="child-menu">
+			      		<a href="course1-details.html"><span>HTML</span> <span class="fa fa-angle-right toggle-right"></span>
+			      		</a>
+			      		<ul class="child-menu-ul">
+			        		<li>
+			         			<a href="course1-details.html">Course Details</a>
+			        		</li>
+			        		<li>
+			          			<a href="course1-schedule.html">Course Schedule</a>
+			        		</li>
+			      		</ul>
+			    	</li>
+
+			    
+			    	<li class="child-menu">
+			      		<a href="course2-details.html"><span>CSS</span> <span class="fa fa-angle-right toggle-right"></span>
+			      		</a>
+			      		<ul class="child-menu-ul">
+			        		<li>
+			         			<a href="course2-details.html">Course Details</a>
+			        		</li>
+			        		<li>
+			          			<a href="course2-schedule.html">Course Schedule</a>
+			        		</li>
+			      		</ul>
+			    	</li>
+			    
+			    
+			    
+			    	<li class="child-menu">
+			      		<a href="course3-details.html"><span>JavaScript</span> <span class="fa fa-angle-right toggle-right"></span>
+			      		</a>
+			      		<ul class="child-menu-ul">
+			        		<li>
+			         			<a href="course3-details.html">Course Details</a>
+			        		</li>
+			        		<li>
+			          			<a href="course3-schedule.html">Course Schedule</a>
+			        		</li>
+			      		</ul>
+			    	</li>
+
+
+			    	<li class="child-menu">
+			      		<a href="course4-details.html"><span>Responsive Web Design</span> <span class="fa fa-angle-right toggle-right"></span>
+			      		</a>
+			      		<ul class="child-menu-ul">
+			        		<li>
+			         			<a href="course4-details.html">Course Details</a>
+			        		</li>
+			        		<li>
+			          			<a href="course4-schedule.html">Course Schedule</a>
+			        		</li>
+			      		</ul>
+			    	</li>
+
+			  	</ul>
+			</div>
+		</div>
+		<!-- menu end -->
+
+		
+		<!-- schedule -->
+		<div class="schedule-section">
+			<img src="img/course1.jpg">
+			<div class="std-title" id="title">
+				<h3 class="title">
+					<span class="one-title"><b>HTML Cla</b></span><span class="two-title"><b>ss Schedule</b></span>
+					<hr class="one-line">
+					<hr class="two-line">
+				</h3>
+			</div>
+
+
+			<!-- tab -->
+			<div class="tab-section">
+				<div id="tabs">
+				  	<ul class="tab-ul list-unstyled">
+				    	<li class="selected"><a href="#tabs-1">Morning Sessions</a></li>
+				    	<li><a href="#tabs-2">Evening Sessions</a></li>
+				    	<li><a href="#tabs-3">Night Sessions</a></li>
+				  	</ul>
+				                
+				  	<div class="tab-content">
+				    	<div id="tabs-1">
+				    		<div class="schedule-heading">
+				    			<div class="row">
+				    				<h4 class="sec1 col-6">Weekdays Class</h4>
+				    				<h4 class="sec2 col-6">$39.99</h4>
+				    			</div>
+				    			<div class="row">
+				    				<p class="sec1 col-6">Duration Time: 1month</p>
+				    				<p class="sec2 col-6"><a href="register.html">Register</a></p>
+				    			</div>
+				    		</div>
+				    		<table class="timetable">
+				    			<tr>
+				    				<td class="tth">Date</td>
+				    				<td class="tth">Start time</td>
+				    				<td class="tth">End time</td>
+				    				<td class="tth">Teacher</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Monday</td>
+				    				<td>9AM</td>
+				    				<td>12PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Tuesday</td>
+				    				<td>9AM</td>
+				    				<td>12PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Wednesday</td>
+				    				<td>9AM</td>
+				    				<td>12PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Thursday</td>
+				    				<td>9AM</td>
+				    				<td>12PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Friday</td>
+				    				<td>9AM</td>
+				    				<td>12PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    		</table>
+				    		
+				    		<div class="schedule-heading">
+				    			<div class="row">
+				    				<h4 class="sec1 col-6">Weekends Class</h4>
+				    				<h4 class="sec2 col-6">$39.99</h4>
+				    			</div>
+				    			<div class="row">
+				    				<p class="sec1 col-6">Duration Time: 1month and 2 weeks</p>
+				    				<p class="sec2 col-6"><a href="register.html">Register</a></p>
+				    			</div>
+				    		</div>
+				    		<table class="timetable">
+				    			<tr>
+				    				<td class="tth">Date</td>
+				    				<td class="tth">Start time</td>
+				    				<td class="tth">End time</td>
+				    				<td class="tth">Teacher</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Saturday</td>
+				    				<td>9AM</td>
+				    				<td>12PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Sunday</td>
+				    				<td>9AM</td>
+				    				<td>12PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    		</table>
+				    	</div>
+
+
+
+
+				    	<div id="tabs-2">
+				    		<div class="schedule-heading">
+				    			<div class="row">
+				    				<h4 class="sec1 col-6">Weekdays Class</h4>
+				    				<h4 class="sec2 col-6">$39.99</h4>
+				    			</div>
+				    			<div class="row">
+				    				<p class="sec1 col-6">Duration Time: 1month</p>
+				    				<p class="sec2 col-6"><a href="register.html">Register</a></p>
+				    			</div>
+				    		</div>
+				    		<table class="timetable">
+				    			<tr>
+				    				<td class="tth">Date</td>
+				    				<td class="tth">Start time</td>
+				    				<td class="tth">End time</td>
+				    				<td class="tth">Teacher</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Monday</td>
+				    				<td>1PM</td>
+				    				<td>4PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Tuesday</td>
+				    				<td>1PM</td>
+				    				<td>4PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Wednesday</td>
+				    				<td>1PM</td>
+				    				<td>4PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Thursday</td>
+				    				<td>1PM</td>
+				    				<td>4PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Friday</td>
+				    				<td>1PM</td>
+				    				<td>4PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    		</table>
+
+				    		<div class="schedule-heading">
+				    			<div class="row">
+				    				<h4 class="sec1 col-6">Weekends Class</h4>
+				    				<h4 class="sec2 col-6">$39.99</h4>
+				    			</div>
+				    			<div class="row">
+				    				<p class="sec1 col-6">Duration Time: 1month and 2 weeks</p>
+				    				<p class="sec2 col-6"><a href="register.html">Register</a></p>
+				    			</div>
+				    		</div>
+				    		<table class="timetable">
+				    			<tr>
+				    				<td class="tth">Date</td>
+				    				<td class="tth">Start time</td>
+				    				<td class="tth">End time</td>
+				    				<td class="tth">Teacher</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Saturday</td>
+				    				<td>1PM</td>
+				    				<td>4PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Sunday</td>
+				    				<td>1PM</td>
+				    				<td>4PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    		</table>
+				    	</div>
+
+
+				    	<div id="tabs-3">
+				    		<div class="schedule-heading">
+				    			<div class="row">
+				    				<h4 class="sec1 col-6">Weekdays Class</h4>
+				    				<h4 class="sec2 col-6">$39.99</h4>
+				    			</div>
+				    			<div class="row">
+				    				<p class="sec1 col-6">Duration Time: 1month</p>
+				    				<p class="sec2 col-6"><a href="register.html">Register</a></p>
+				    			</div>
+				    		</div>
+				    		<table class="timetable">
+				    			<tr>
+				    				<td class="tth">Date</td>
+				    				<td class="tth">Start time</td>
+				    				<td class="tth">End time</td>
+				    				<td class="tth">Teacher</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Monday</td>
+				    				<td>5PM</td>
+				    				<td>8PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Tuesday</td>
+				    				<td>5PM</td>
+				    				<td>8PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Wednesday</td>
+				    				<td>5PM</td>
+				    				<td>8PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Thursday</td>
+				    				<td>5PM</td>
+				    				<td>8PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Friday</td>
+				    				<td>5PM</td>
+				    				<td>8PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    		</table>
+				    		
+				    		<div class="schedule-heading">
+				    			<div class="row">
+				    				<h4 class="sec1 col-6">Weekends Class</h4>
+				    				<h4 class="sec2 col-6">$39.99</h4>
+				    			</div>
+				    			<div class="row">
+				    				<p class="sec1 col-6">Duration Time: 1month and 2 weeks</p>
+				    				<p class="sec2 col-6"><a href="register.html">Register</a></p>
+				    			</div>
+				    		</div>
+				    		<table class="timetable">
+				    			<tr>
+				    				<td class="tth">Date</td>
+				    				<td class="tth">Start time</td>
+				    				<td class="tth">End time</td>
+				    				<td class="tth">Teacher</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Saturday</td>
+				    				<td>5PM</td>
+				    				<td>8PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    			<tr>
+				    				<td class="ttd">Sunday</td>
+				    				<td>5PM</td>
+				    				<td>8PM</td>
+				    				<td>Ms.Danial Cotta</td>
+				    			</tr>
+				    		</table>
+				    	</div>
+				  	</div>
+				</div>
+			</div>
+			<!-- tab end -->
+
+		</div>
+		<!-- schedule end -->
+
+
+	</div>
+	<!-- course schedule end -->
+	
+
+	
+	
+	  
+
+
+	<!-- footer -->		
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links">
+				<p class="sub-link"><a href="privacy.html">Privacy Policy</a></p>
+				<p class="sub-link"><a href="contact-us.html">Contact Us</a></p>
+				<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				<p class="sub-link"><a href="sitemap.html">Sitemap</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+
+
+
+
+
+
+
+
+	<script>
+		$(document).ready(function() {
+   			//menu left toggle
+
+	   		$('.toggle-nav').click(function() {
+	     		// alert('done');
+	     		$this = $(this);
+	     		$nav = $('.nice-nav');
+	     		//$nav.fadeToggle("fast", function() {
+	      			//  $nav.slideLeft('250');
+	   			//  });
+	     
+	     		$nav.toggleClass('open');
+
+		   		});
+		   		$('.body-part').click(function(){
+		     		$nav.addClass('open');
+		   		});
+		   		//  $nav.addClass('open');
+
+		   		//drop down menu
+		   			$submenu = $('.child-menu-ul');
+		   		$('.child-menu .toggle-right').on('click', function(e) {
+		     		e.preventDefault();
+		     		$this = $(this);
+		     		$parent = $this.parent().next();
+		     		// $parent.addClass('active');
+		     		$tar = $('.child-menu-ul');
+	     		if (!$parent.hasClass('active')) {
+	       			$tar.removeClass('active').slideUp('fast');
+	       			$parent.addClass('active').slideDown('fast');
+
+	     		} else {
+	       			$parent.removeClass('active').slideUp('fast');
+	     		}
+
+   			});
+
+ 		});
+
+
+ 		$("#tabs").tabs();
+
+        	$(".tab-ul li").on("click",function(e){
+
+
+            	$(".tab-ul li").removeClass("selected");
+            	$(this).removeClass("selected");
+            	$(this).addClass("selected");
+
+        	})
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
